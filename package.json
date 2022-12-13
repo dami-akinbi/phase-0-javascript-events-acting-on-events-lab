@@ -7,14 +7,27 @@
     "test": "mocha --timeout 5000 -R mocha-multi --reporter-options spec=-,json=.results.json"
   },
   "author": "flatironschool",
-  "license": "Included in Repo",
+  "license": "SEE LICENSE IN LICENSE.md",
   "dependencies": {
     "@babel/core": "^7.4.5",
     "@babel/preset-env": "^7.4.5",
-    "chai": "^4.2.0",
     "jsdom": "^9.0",
-    "mocha": "5.2.0",
     "mocha-jsdom": "~1.1.0",
     "mocha-multi": "^1.0.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dami-akinbi/phase-0-javascript-events-acting-on-events-lab.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dami-akinbi/phase-0-javascript-events-acting-on-events-lab/issues"
+  },
+  "homepage": "https://github.com/dami-akinbi/phase-0-javascript-events-acting-on-events-lab#readme",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
   }
 }
